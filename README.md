@@ -1,2 +1,2 @@
-# pokedex
+# Pokedex
  Projeto Pokédex
