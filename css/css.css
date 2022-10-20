@@ -61,7 +61,7 @@ box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;}
     gap: 20px;
 }
 
-.button {
+.button-Prev {
     width: 50%;
     padding: 4%;
     border: 2px solid #000;
@@ -72,8 +72,22 @@ box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;}
     background-color: #444;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
-
-.button:active{
+.button-Next {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1ren);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+.button-Next:active{
+    box-shadow: inset -4px 4px 0 #000;
+    font-size: 0.9rem;
+}
+.button-Prev:active{
     box-shadow: inset -4px 4px 0 #000;
     font-size: 0.9rem;
 }
